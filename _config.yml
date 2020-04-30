@@ -65,8 +65,8 @@ baidu_tongji:
 #swiftype_key: ZP2ZSuHgipSZfRyU8uTR
 valine:
   enable: true # 是否开启
-  appId: ujj7HTnVMfHWWTTQXQ3wsoOB-gzGzoHsz   # 上一步获取的 App ID
-  appKey: 2EluivF387y5A1TdMfPDYEHf  # 上一步获取的 App Key
+  appId: # App ID
+  appKey: # App Key
   notify: true # 新留言是否需要通知 https://github.com/xCss/Valine/wiki
   verify: true # 是否需要验证，验证比较反人类建议false关闭
   placeholder: 请在此输入您的留言 # 默认留言框内的文字
