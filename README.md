@@ -1,9 +1,5 @@
-Hexo-Theme-Freemind.386
+hexo-theme-freemind.386.second
 ===
-
-![screenshot](/free386-screenshot.png)
-
-Freemind.386 aims at fully taking advantages of Bootstrap.
 
 * [Demo](https://www.liuguisheng.vip/)
 * [Readme in Chinese](https://www.liuguisheng.vip/2020/01/09/%E7%A8%8B%E5%BA%8F%E5%91%98%E6%A0%87%E9%85%8D-%E4%BD%BF%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
