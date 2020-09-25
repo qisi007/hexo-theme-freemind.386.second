@@ -13,6 +13,12 @@ menu:
 
   - title: 标签
     url: tags
+
+  - title: 歌单
+    url: music
+  
+  - title: 关于我
+    url: about
   
   # - title: 相册
   #   url: galleries
@@ -32,13 +38,17 @@ menu:
   #   # icon: "fa fa-user"
 
 links:
-  - title: "My Github"
+  - title: "Github"
     url: https://github.com/qisi007
     icon: "fa fa-github"
 
   - title: "博客园"
     url: https://www.cnblogs.com/qisi007/
     icon: "fa fa-user"
+
+  - title: "千家找房"
+    url: https://www.allqj.com/
+    icon: "fa fa-home"
 
 widgets:
 - search
@@ -62,14 +72,25 @@ baidu_tongji:
   siteid: cb5448498d7169c668b07c2b255d62c1
 
 # search
-#swiftype_key: ZP2ZSuHgipSZfRyU8uTR
-valine:
-  enable: true # 是否开启
-  appId: # App ID
-  appKey: # App Key
-  notify: true # 新留言是否需要通知 https://github.com/xCss/Valine/wiki
-  verify: true # 是否需要验证，验证比较反人类建议false关闭
-  placeholder: 请在此输入您的留言 # 默认留言框内的文字
-  avatar: mm # 默认头像
-  guest_info: nick,mail # 默认留言框的头部需要访问者输入的信息
-  pageSize: 10 # pagination size #默认单页的留言条数
+swiftype_key: ZP2ZSuHgipSZfRyU8uTR
+
+
+gitalk:
+  enable: true
+  owner: qisi007
+  admin: qisi007
+  repo: qisi007.github.io
+  ClientID: 手动马赛克
+  ClientSecret: 手动马赛克
+  labels: 'gitalk'
+  distractionFreeMode: true
+
+leancloud_visitors:
+  enable: true
+  app_id: ujj7HTnVMfHWWTTQXQ3wsoOB-gzGzoHsz
+  app_key: 2EluivF387y5A1TdMfPDYEHf
+
+post_wordcount:
+  item_text: true
+  wordcount: true
+  min2read: true
